@@ -3,7 +3,7 @@ import react from "react";
 function Amigurumi(){
   return(
     <div className="contenedor-amigurumi">
-      <img 
+      <img
         className="imagen-amigurumi"
         src={require("../imagenes/Logo.jpg")}
         alt="imagen del amigurumi"/>
@@ -17,4 +17,4 @@ function Amigurumi(){
   );
 };
 
-export default Amigurumi
+export default Amigurumi();
