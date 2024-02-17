@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 function Amigurumi(){
   return(
@@ -11,10 +11,10 @@ function Amigurumi(){
         <p className="nombre-amigurumi">Duky</p>
         <p className="dificultad-amigurumi">Facil</p>
         <p className="descripcion-amigurumi">Duky es un patito amarillo con muy buen humor, sabe muy bien como</p>
-        <p className="precio-amigurumi"></p>
+        <p className="precio-amigurumi">$10000</p>
       </div> 
     </div>
   );
-};
+}
 
-export default Amigurumi();
+export default Amigurumi;

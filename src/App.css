@@ -5,5 +5,60 @@
 
 html, body{
   font-size: 18px;
-  background-color: #f5f6f7;
+  background-color: #f546f7;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-amigurumi{
+  display: grid;
+  grid-template-areas: 
+  "img img"
+  "texto texto";
+}
+
+.imagen-amigurumi{
+  grid-area: img;
+  width: 1000px;
+  height: 500px;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.contenedor-texto-amigurumi{
+  grid-area: texto;
+  justify-self: center;
+  align-items: center;
+  grid-template-areas: 
+  "nombre"
+  "dificultad"
+  "descripcion"
+  "precio";
+}
+
+.nombre-amigurumi{
+  grid-area: nombre;
+  text-align: center;
+  font-size: 150%;
+}
+
+.dificultad-amigurumi{
+  grid-area: dificultad;
+  text-align: center;
+  font-size: 120%;
+}
+
+.descripcion-amigurumi{
+  grid-area: descripcion;
+  text-align: center;
+  font-size: 120%;
+}
+
+.precio-amigurumi{
+  grid-area: precio;
+  text-align: center;
+  font-size: 120%;
 }

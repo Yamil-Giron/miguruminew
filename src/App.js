@@ -1,5 +1,5 @@
 import './App.css';
-import Amigurumi from "./Componentes/Amigurumis.js";
+import Amigurumi from "./Componentes/Amigurumis.jsx";
 
 function App() {
   return (
